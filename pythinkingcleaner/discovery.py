@@ -14,7 +14,7 @@ class Discovery(object):
         devices = []
 
         for device in data:
-            devices.append(ThinkingCleaner(device['local_ip']))
+            devices.append(ThinkingCleaner(device['local_ip'], device['uuid']))
 
         return devices
 

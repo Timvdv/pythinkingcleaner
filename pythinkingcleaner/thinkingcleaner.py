@@ -7,8 +7,9 @@ EP_COMMAND = 'command.json?command='
 
 
 class ThinkingCleaner(object):
-    def __init__(self, ip):
+    def __init__(self, ip, uuid):
         self.ip = ip
+        self.uuid = uuid
         self.base_uri = 'http://' + self.ip + '/'
         self.name = 'unknown'
         self.uuid = 'unknown'
