@@ -1,12 +1,17 @@
-from setuptools import setup
+from distutils.core import setup
 
-setup(name='pythinkingcleaner',
-      version='0.0.2',
-      description='Library to interface with thinkingcleaner',
-      url='https://github.com/TheRealLink/pythinkingcleaner',
-      author='Dennis Karpienski',
-      author_email='dennis@karpienski.de',
+setup(
+      name = 'pythinkingcleaner',
+      packages = ['pythinkingcleaner'],
+      install_requires = ['requests'],
+      zip_safe = True,
       license='MIT',
-      packages=['pythinkingcleaner'],
-      install_requires=['requests'],
-      zip_safe=True)
+      version = '0.0.3',
+      description = 'Library to control ThinkingCleaner devices',
+      author = 'Dennis Karpienski',
+      author_email = 'dennis@karpienski.de',
+      url = 'https://github.com/TheRealLink/pythinkingcleaner',
+      download_url = 'https://github.com/TheRealLink/pythinkingcleaner/archive/0.0.3.tar.gz',
+      keywords = ['thinkingcleaner', 'roomba'],
+      classifiers = [],
+)
