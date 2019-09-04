@@ -1,6 +1,6 @@
 import requests
 
-DISCOVERY_URL = 'https://thinkingsync.com/api/v1/discover/devices'
+DISCOVERY_URL = 'http://thinkingsync.com/api/v1/discover/devices'
 EP_STATUS = 'status.json'
 EP_DETAIL_STATUS = 'full_status.json'
 EP_COMMAND = 'command.json?command='
