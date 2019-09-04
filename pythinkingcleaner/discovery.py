@@ -1,7 +1,7 @@
 import requests
 from .thinkingcleaner import ThinkingCleaner
 
-DISCOVERY_URL = "https://thinkingsync.com/api/v1/discover/devices"
+DISCOVERY_URL = "http://thinkingsync.com/api/v1/discover/devices"
 
 
 class Discovery(object):
